@@ -69,28 +69,7 @@ oiseau.manger();
 oiseau.voler();
 
 
-////////////////////////////////
 
-class User {
-  constructor(firstname, lastname, email){
-    this.firstname = firstname;
-    this.lastname = lastname;
-    this.email = email;
-  }
-
-  status(){
-    console.log(`Je m'appelle ${this.firstname} ${this.lastname} et suis joignable sur ${this.email}`)
-  }
-}
-
-const thomas = new User('Thomas', 'Falcone', 'thomas.falcone@mail.com');
-
-thomas.firstname = 'Bernard';
-
-console.log(thomas.firstname);
-
-thomas = undefined;
-// delete thomas.email;
 
 
 
