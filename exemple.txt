@@ -1,0 +1,2 @@
+J'aimerais m'afficher dans la console.
+Bienvenue dans RebootJS !
