@@ -1,0 +1,2 @@
+httpie 
+curl -X POST http://localhost:3000/users --data '{"firstname":"thomas", "lastname": "falcone", "email": "toto"}' -H'Content-type:application/json'

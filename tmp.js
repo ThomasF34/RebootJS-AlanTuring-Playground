@@ -69,7 +69,20 @@ oiseau.manger();
 oiseau.voler();
 
 
+setTimeout(() => {
+  console.log("Bonjour, j'ai attendu 3000ms");
+}, 3000)
+console.log("Bonjour, je n'ai pas attendu");
 
 
+const first = { firstname: 'Thomas', lastname: 'Falcone', email: 'toto' }
+const second = { ...first, firstname: 'Bernard' }
+console.log(first);
+console.log(second);
+
+const tableau = [1, 2, 3];
+const tableau2 = [...tableau, 4];
+
+console.log(tableau, tableau2);
 
 
